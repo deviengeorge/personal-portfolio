@@ -14,8 +14,9 @@ export const headerData = {
   actions: [
     {
       text: 'Download CV',
-      href: 'tel:201281089983',
-      variant: 'link'
+      href: '/resume.pdf',
+      variant: 'link',
+      download: "Devien George CV - Full-Stack Developer",
     },
     {
       text: 'Call Me',
