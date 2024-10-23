@@ -1,6 +1,6 @@
 site:
   name: Devien George
-  site: 'https://devien-george.me'
+  site: 'https://devien-george.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -18,7 +18,7 @@ metadata:
   openGraph:
     site_name: Devien George
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/devien.png'
         width: 1200
         height: 628
     type: website
