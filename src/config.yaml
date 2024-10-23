@@ -11,7 +11,7 @@ metadata:
   title:
     default: Devien George
     template: '%s | Devien George'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Welcome to my portfolio! I’m a skilled full-stack developer with 3 years of experience in creating dynamic websites and applications using Laravel and Node.js. Specializing in both frontend and backend development, I craft seamless user experiences and robust server-side solutions. My expertise includes popular frameworks like Vue and React, database management, API integration, and responsive design. I’m also passionate about teaching web development, empowering others with skills in technologies such as Python, Django, and Redux. Explore my work, and let’s connect to bring your ideas to life!"
   robots:
     index: true
     follow: true
@@ -34,7 +34,7 @@ i18n:
 apps:
   blog:
     isEnabled: true
-    postsPerPage: 6
+    postsPerPage: 10
 
     post:
       isEnabled: true
@@ -69,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'light:only' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
