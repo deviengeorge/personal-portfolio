@@ -18,7 +18,7 @@ metadata:
   openGraph:
     site_name: Devien George
     images:
-      - url: 'https://res.cloudinary.com/test-devo/image/upload/v1730081694/personal-portfolio/cover.png'
+      - url: 'https://res.cloudinary.com/test-devo/image/upload/f_auto,q_auto/v1/personal-portfolio/cover'
         width: 1200
         height: 628
     type: website
