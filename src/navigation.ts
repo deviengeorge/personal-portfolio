@@ -2,25 +2,26 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
-      text: 'Home',
-      href: getPermalink('/'),
-    },
-    {
-      text: 'Blog',
-      href: getBlogPermalink(),
-    },
+    // {
+    //   text: 'Home',
+    //   href: getPermalink('/'),
+    // },
+    // {
+    //   text: 'Blog',
+    //   href: getBlogPermalink(),
+    // },
   ],
   actions: [
     {
-      text: 'Download CV',
-      href: '/resume.pdf',
-      variant: 'link',
-      download: "Devien George CV - Full-Stack Developer",
-    },
-    {
       text: 'Call Me',
       href: 'tel:201281089983',
+      variant: 'link',
+    },
+    {
+      text: 'Download CV',
+      href: '/resume.pdf',
+      download: "Devien George CV - Full-Stack Developer",
+      variant: 'primary'
     },
   ],
 };
@@ -77,7 +78,7 @@ export const footerData = {
   //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
   // ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/devien_george' },
+    { ariaLabel: 'X ( Twitter )', icon: 'tabler:brand-x', href: 'https://x.com/devien_george' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/deviengeorge' },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/deviengeorge' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
